@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "track": "Executive",
+    "name": "Grilled Chicken & Herb Rice",
+    "description": "Lemon-herb marinated chicken, saffron rice, roasted seasonal vegetables.",
+    "image": "/grilled_chicken_rice_1787189940086.png",
+    "macros": {
+      "protein": "38g",
+      "carbs": "52g",
+      "fat": "14g"
+    }
+  },
+  {
+    "id": "2",
+    "track": "Executive",
+    "name": "Chicken Shawarma Bowl",
+    "description": "Spiced chicken, garlic toum, pickled turnip, warm pita on the side.",
+    "image": "/chicken_shawarma_bowl_1787190050394.png",
+    "macros": {
+      "protein": "34g",
+      "carbs": "48g",
+      "fat": "18g"
+    }
+  },
+  {
+    "id": "3",
+    "track": "Salad",
+    "name": "Grilled Chicken Caesar",
+    "description": "Romaine, shaved parmesan, sourdough croutons, light Caesar dressing.",
+    "image": "/grilled_chicken_caesar_1787190066280.png",
+    "macros": {
+      "protein": "30g",
+      "carbs": "22g",
+      "fat": "16g"
+    }
+  }
+]
