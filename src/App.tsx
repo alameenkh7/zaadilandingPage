@@ -1,26 +1,10 @@
 import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import menuData from './menu.json';
-
-function Navbar() {
-  return (
-    <nav>
-      <div className="wrap">
-        <a href="#" className="logo">
-          <span className="logo-mark"><span>P</span></span>
-          Platio
-        </a>
-        <div className="nav-links">
-          <a href="#how">How It Works</a>
-          <a href="#menu">Menu</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#coverage">Coverage</a>
-          <a href="#companies">For Companies</a>
-        </div>
-        <a href="#get-app" className="nav-cta">Download the App</a>
-      </div>
-    </nav>
-  );
-}
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 
 function Hero() {
   return (
@@ -438,44 +422,7 @@ function FAQ() {
   );
 }
 
-function Footer() {
-  return (
-    <footer>
-      <div className="wrap">
-        <div className="footer-top">
-          <div className="footer-brand">
-            <a href="#" className="logo"><span className="logo-mark"><span>P</span></span>Platio</a>
-            <p>Fresh, balanced lunch delivered to your office — every weekday, without any effort.</p>
-          </div>
-          <div className="footer-col">
-            <h4>Explore</h4>
-            <a href="#how">How It Works</a>
-            <a href="#menu">Menu</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#coverage">Coverage</a>
-          </div>
-          <div className="footer-col">
-            <h4>Business</h4>
-            <a href="#companies">For Companies</a>
-            <a href="#">Careers</a>
-            <a href="#">Contact</a>
-          </div>
-          <div className="footer-col">
-            <h4>Legal</h4>
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <span>© 2026 Platio. All rights reserved.</span>
-          <span>Riyadh, Saudi Arabia</span>
-        </div>
-      </div>
-    </footer>
-  );
-}
-
-function App() {
+function HomePage() {
   return (
     <>
       <Navbar />
@@ -490,6 +437,16 @@ function App() {
       <FAQ />
       <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/terms" element={<TermsOfService />} />
+    </Routes>
   );
 }
 
