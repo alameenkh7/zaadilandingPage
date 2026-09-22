@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import AccountDeletion from './pages/AccountDeletion';
 
 function Hero() {
   return (
@@ -446,6 +447,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
+      <Route path="/account-deletion" element={<AccountDeletion />} />
     </Routes>
   );
 }

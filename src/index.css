@@ -446,6 +446,32 @@ nav .wrap{
 }
 .legal-inline-link{color:var(--red);text-decoration:underline;text-underline-offset:2px;}
 .legal-inline-link:hover{color:var(--red-dark);}
+.legal-callout{
+  margin:0 0 28px;padding:18px 20px;border-radius:12px;
+  background:var(--cream);border:1px solid var(--line);border-left:4px solid var(--red);
+  font-size:15px;line-height:1.65;
+}
+.legal-callout strong{color:var(--black);}
+.deletion-steps{
+  list-style:none;margin:8px 0 24px;padding:0;counter-reset:deletion-step;
+}
+.deletion-steps li{
+  counter-increment:deletion-step;position:relative;
+  margin:0 0 14px;padding:14px 16px 14px 52px;
+  background:var(--cream);border:1px solid var(--line);border-radius:12px;
+  font-size:15px;line-height:1.65;
+}
+.deletion-steps li::before{
+  content:counter(deletion-step);
+  position:absolute;left:16px;top:14px;
+  width:26px;height:26px;border-radius:50%;
+  background:var(--red);color:var(--white);
+  font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:13px;
+  display:flex;align-items:center;justify-content:center;
+}
+.footer-hint{
+  margin-top:14px;font-size:12.5px;line-height:1.55;color:var(--gray);max-width:240px;
+}
 .legal-page + footer{margin-top:0;}
 
 /* ---------- FOOTER ---------- */
