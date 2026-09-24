@@ -26,7 +26,7 @@ export default function Footer() {
             <h4>Legal</h4>
             <Link to="/terms">Terms of Service</Link>
             <Link to="/privacy-policy">Privacy Policy</Link>
-            <Link to="/account-deletion">Delete account</Link>
+            <a href="/#/account-deletion">Delete account</a>
             <p className="footer-hint">
               Delete your account in the app: Profile → Account → Delete account (above Sign out).
             </p>

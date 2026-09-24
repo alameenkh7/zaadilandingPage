@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
+import { goHomeFromHash } from '../hashRouting';
 
 export default function Navbar() {
   return (
     <nav>
       <div className="wrap">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={goHomeFromHash}>
           <span className="logo-mark"><span>P</span></span>
           Platio
         </Link>

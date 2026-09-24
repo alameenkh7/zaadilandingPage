@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { goHomeFromHash } from '../hashRouting';
 
 const profileItems = [
   'Rate Your Meals',
@@ -24,7 +25,7 @@ export default function AccountDeletion() {
       <Navbar />
       <main className="legal-page">
         <div className="wrap">
-          <Link to="/" className="legal-back">← Back to Platio</Link>
+          <Link to="/" className="legal-back" onClick={goHomeFromHash}>← Back to Platio</Link>
           <article className="legal-content">
             <h1>Delete your Platio account</h1>
             <p className="legal-meta">
