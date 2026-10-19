@@ -1,8 +1,9 @@
 # Landing page — account deletion (Google Play handoff)
 
-**Public URL (Google Play — use this):** `https://platiokitchen.com/#/account-deletion`  
-**Path fallback (when CDN SPA rewrite works):** `https://platiokitchen.com/account-deletion`  
-**Footer link label:** Delete account → `/#/account-deletion`
+**Public URL (Google Play — use this):** `https://www.platiokitchen.com/account-deletion.html`  
+**Privacy policy (Google Play):** `https://www.platiokitchen.com/privacy-policy.html`  
+**SPA fallbacks:** `/#/account-deletion`, `/account-deletion`, `/privacy-policy`  
+**Footer link label:** Delete account → `/account-deletion.html`
 
 ## Requirement
 

@@ -90,7 +90,7 @@ export default function AccountDeletion() {
             </ul>
             <p>
               For more detail, see our{' '}
-              <Link to="/privacy-policy" className="legal-inline-link">Privacy Policy</Link>.
+              <a href="/privacy-policy.html" className="legal-inline-link">Privacy Policy</a>.
             </p>
 
             <h2>Need help?</h2>

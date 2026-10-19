@@ -2,8 +2,9 @@
 export const ACCOUNT_DELETION_HASH_PATH = '/account-deletion';
 
 /** Submit this URL to Google Play Console while path-based SPA rewrites are unreliable. */
+/** Static HTML URL (HTTP 200 for crawlers). Hash and SPA paths remain as fallbacks. */
 export const ACCOUNT_DELETION_PUBLIC_URL =
-  'https://platiokitchen.com/#/account-deletion';
+  'https://www.platiokitchen.com/account-deletion.html';
 
 export type HashRoute = 'account-deletion';
 
