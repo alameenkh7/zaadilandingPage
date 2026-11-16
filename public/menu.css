@@ -1,24 +1,86 @@
-.menu-content {
-  max-width: min(900px, 100%);
+/* Standalone menu pages (B2B / B2C) — not squeezed into legal doc card */
+
+.menu-page {
+  background: var(--cream, #fff6f3);
+  padding: 40px 0 72px;
+  min-height: 60vh;
 }
 
-.menu-download {
-  margin: 0 0 24px;
+.menu-document {
+  max-width: min(920px, 100%);
+  margin: 0 auto;
+}
+
+.menu-document h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: clamp(28px, 4vw, 38px);
+  margin-bottom: 8px;
+  color: var(--black, #161311);
+}
+
+.menu-intro {
+  color: var(--gray, #6b6b6b);
   font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.menu-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+.menu-pdf-wrap {
+  background: #fff;
+  border: 1px solid var(--line, #f0e2dd);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 18px 50px -30px rgba(22, 19, 17, 0.12);
+  margin-bottom: 32px;
+}
+
+.menu-pdf-embed {
+  display: block;
+  width: 100%;
+  height: min(88vh, 1100px);
+  min-height: 480px;
+  border: 0;
+}
+
+.menu-pages-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray, #6b6b6b);
+  margin: 8px 0 16px;
 }
 
 .menu-pages {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   align-items: center;
 }
 
 .menu-pages img {
   width: 100%;
-  max-width: 820px;
+  max-width: 920px;
   height: auto;
-  border-radius: 6px;
+  display: block;
+  border-radius: 8px;
   border: 1px solid var(--line, #f0e2dd);
-  box-shadow: 0 12px 36px -24px rgba(22, 19, 17, 0.2);
+  background: #fff;
+}
+
+@media (max-width: 640px) {
+  .menu-pdf-embed {
+    height: 70vh;
+    min-height: 360px;
+  }
 }
