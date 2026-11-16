@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { goHomeFromHash } from '../hashRouting';
+import '../legal-pages.css';
 
 const profileItems = [
   'Rate Your Meals',

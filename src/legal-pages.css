@@ -1,0 +1,131 @@
+.legal-page {
+  background: var(--paper);
+  padding: 48px 0 80px;
+  min-height: 60vh;
+}
+
+.legal-back {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.legal-back:hover {
+  color: var(--red);
+}
+
+.legal-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: clamp(32px, 5vw, 56px);
+}
+
+.legal-content h1 {
+  font-family: var(--serif);
+  font-size: clamp(30px, 4vw, 42px);
+  margin-bottom: 10px;
+}
+
+.legal-meta {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 36px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.legal-content h2 {
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.5vw, 24px);
+  margin: 36px 0 14px;
+}
+
+.legal-content h3 {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 22px 0 10px;
+}
+
+.legal-content p {
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.legal-content ul {
+  margin: 12px 0 18px 22px;
+}
+
+.legal-content li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.legal-address {
+  font-style: normal;
+  margin: 16px 0 20px;
+  padding: 18px 20px;
+  background: var(--paper2);
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.legal-inline-link {
+  color: var(--red);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-callout {
+  margin: 0 0 28px;
+  padding: 18px 20px;
+  border-radius: 6px;
+  background: var(--paper2);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--red);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.deletion-steps {
+  list-style: none;
+  margin: 8px 0 24px;
+  padding: 0;
+  counter-reset: deletion-step;
+}
+
+.deletion-steps li {
+  counter-increment: deletion-step;
+  position: relative;
+  margin: 0 0 14px;
+  padding: 14px 16px 14px 52px;
+  background: var(--paper2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.deletion-steps li::before {
+  content: counter(deletion-step);
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

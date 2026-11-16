@@ -1,0 +1,206 @@
+[
+  {
+    "cat": "Getting started",
+    "items": [
+      [
+        "What is Platio?",
+        "<p>Platio delivers fresh office lunches in Riyadh. Pick a plan in the app, and lunch arrives at your desk every working day, cooked fresh today. You never have to think about lunch again.</p>"
+      ],
+      [
+        "How does it work?",
+        "<ol><li>Download the Platio app.</li><li>Choose your meal type (Platio Balanced or Platio Light) and your plan.</li><li>Add your office address.</li><li>We cook fresh every day and deliver to your office before 1 PM. Skip or pause from the app whenever you need.</li></ol>"
+      ],
+      [
+        "Do I need the app to order?",
+        "<p>Yes. Ordering, skipping, pausing and managing your plan all happen in the Platio app, available on iPhone and Android.</p>"
+      ],
+      [
+        "Can I try Platio before subscribing?",
+        "<p>Yes. Our Try It plan gives you one lunch for 32 SAR (usually 40 SAR).</p>"
+      ]
+    ]
+  },
+  {
+    "cat": "Meals",
+    "items": [
+      [
+        "What types of lunch do you offer?",
+        "<ul><li><b>Platio Balanced:</b> a complete, filling lunch with a good mix of protein, carbs and healthy fats.</li><li><b>Platio Light:</b> a lighter, salad-based lunch for when you want to feel energized, not heavy.</li></ul>"
+      ],
+      [
+        "What's the difference between Balanced and Light?",
+        "<p>Balanced is a full, satisfying lunch. Light is lower in calories and built around fresh, lighter ingredients. Both show full macros in the app, so you can compare before you choose.</p>"
+      ],
+      [
+        "Can I switch between Balanced and Light?",
+        "<p>Yes. Pick Platio Balanced or Platio Light on any day, with no commitment to one.</p>"
+      ],
+      [
+        "Can I see calories and macros before I choose?",
+        "<p>Yes. Every meal shows calories, protein, carbs and fat.</p>"
+      ],
+      [
+        "Can I set dietary preferences?",
+        "<p>Yes. Use the Dietary Preferences screen in the app to tell us what you do and don't eat.</p>"
+      ],
+      [
+        "What about allergens, halal and vegetarian options?",
+        "<p>Every meal on the menu lists its full details, including ingredients and dietary information, so you can check before you choose. If you have a serious allergy, contact our support team before ordering.</p>"
+      ],
+      [
+        "Does the menu change?",
+        "<p>Yes. You can see what's coming up in the app.</p>"
+      ]
+    ]
+  },
+  {
+    "cat": "Freshness",
+    "items": [
+      [
+        "Is the food really cooked fresh every day?",
+        "<p>Yes. Every Platio lunch is cooked fresh on the day it's delivered, made for you and at your desk before 1 PM.</p>"
+      ],
+      [
+        "How should I store my meal?",
+        "<p>We recommend eating your lunch on the day it arrives. If you're not eating right away, keep it in the fridge until lunchtime.</p>"
+      ]
+    ]
+  },
+  {
+    "cat": "Skip & pause",
+    "items": [
+      [
+        "How do I skip a day?",
+        "<p>Open the app, pick the day, and tap Skip.</p>"
+      ],
+      [
+        "What's the cutoff for skipping?",
+        "<p>Skip before <b>6 PM the day before</b> your delivery. After that, your meal is already being planned and can't be skipped.</p><!-- TODO: confirm cutoff for Sunday deliveries (Saturday 6 PM or Thursday 6 PM). -->"
+      ],
+      [
+        "What happens to a meal I skip?",
+        "<p>Nothing is lost. A skipped meal is added to the end of your subscription, so you always receive every meal you paid for.</p>"
+      ],
+      [
+        "What's the difference between skip and pause?",
+        "<p>Skip is for a day or two. Pause is for a longer break, like leave, travel or a holiday. Both work the same way: your meals move to the end of your plan.</p>"
+      ],
+      [
+        "How do I pause my plan?",
+        "<p>From the app, choose the dates you want to pause.</p><!-- TODO: confirm exact pause flow wording. -->"
+      ],
+      [
+        "Is there a limit on how much I can skip or pause?",
+        "<p>Yes. You can skip or pause up to twice the length of your plan in total, and your plan should be completed within three times its length in working days. For example, on a 20-meal plan, you'd receive your last meal by the 60th working day at the latest.</p>"
+      ],
+      [
+        "What if I don't finish my plan in time?",
+        "<p>Contact our support team and we'll help.</p><!-- TODO: state clearly whether unused meals expire. -->"
+      ]
+    ]
+  },
+  {
+    "cat": "Delivery",
+    "items": [
+      [
+        "Which days do you deliver?",
+        "<p>Sunday to Thursday, five days a week.</p>"
+      ],
+      [
+        "When will my lunch arrive?",
+        "<p>Your lunch arrives <b>before 1 PM</b>. You'll get a notification in the app when it's on its way.</p>"
+      ],
+      [
+        "Where do you deliver?",
+        "<p>We deliver to offices across selected areas of Riyadh. Enter your office address in the app to check whether we cover you. We're adding new areas, so contact us if yours isn't listed yet.</p><!-- TODO: add delivery zone names once finalized. -->"
+      ],
+      [
+        "Is there a delivery fee?",
+        "<p>No. Delivery is free on every plan.</p>"
+      ],
+      [
+        "What if my meal is late, wrong or missing?",
+        "<p>Contact our support team on +966 53 975 9323 or support@platiokitchen.com and we'll sort it out.</p>"
+      ]
+    ]
+  },
+  {
+    "cat": "Plans & payment",
+    "items": [
+      [
+        "What plans do you offer?",
+        "<table><tr><th>Plan</th><th>Price</th><th>Per meal</th></tr><tr><td>Try It (1 day)</td><td>32 SAR</td><td>32</td></tr><tr><td>Week (5 days)</td><td>150 SAR</td><td>30</td></tr><tr><td>Month (20 days)</td><td>600 SAR</td><td>30</td></tr><tr><td>Quarter (60 days)</td><td>1,800 SAR</td><td>30</td></tr></table><p>All prices include VAT.</p>"
+      ],
+      [
+        "How do I pay?",
+        "<p>We accept all payment options in the app except cash on delivery.</p>"
+      ],
+      [
+        "Does my plan renew automatically?",
+        "<p>No. Your plan ends when your meals are used up, and you choose when to subscribe again.</p>"
+      ],
+      [
+        "Do I pay for each meal or for the whole plan?",
+        "<p>You pay for the number of meals in your plan, and you receive every one of them, even if you skip or pause.</p>"
+      ],
+      [
+        "Can I get a refund?",
+        "<p>We don't offer refunds, but if something isn't right, our support team will work with you to resolve it.</p>"
+      ],
+      [
+        "Can my office or team order together?",
+        "<p>Yes. Get in touch through our contact details below and we'll help.</p>"
+      ]
+    ]
+  },
+  {
+    "cat": "Referrals",
+    "items": [
+      [
+        "How does referral work?",
+        "<p>Share your referral from the app. When a friend joins with it, they get 15% off their plan and you earn 10% cashback on their first plan.</p>"
+      ],
+      [
+        "How much does my friend save?",
+        "<p>15% off their plan. This comes on top of any other offer available, including plan discounts.</p>"
+      ],
+      [
+        "How much cashback do I get?",
+        "<p>10% of the price of your friend's first plan, added to your wallet in the app.</p>"
+      ],
+      [
+        "How do I use my cashback?",
+        "<p>Your cashback stays in your wallet and can be used toward your next subscription.</p>"
+      ],
+      [
+        "Is there a limit on referrals?",
+        "<p>No cap and no minimum. Refer as many friends as you like.</p>"
+      ],
+      [
+        "Does it work on every plan?",
+        "<p>Yes, on all plans, including Try It.</p>"
+      ],
+      [
+        "Do I earn cashback every time my friend buys a plan?",
+        "<p>Cashback is earned on your friend's first plan purchase.</p>"
+      ]
+    ]
+  },
+  {
+    "cat": "App & support",
+    "items": [
+      [
+        "Which phones does the app work on?",
+        "<p>iPhone and Android.</p>"
+      ],
+      [
+        "How do I update my address, meal type or dietary preferences?",
+        "<p>Open your profile in the app and update them there.</p>"
+      ],
+      [
+        "How can I contact Platio?",
+        "<ul><li>Email: support@platiokitchen.com</li><li>Phone: +966 53 975 9323</li><li>Hours: 10 AM to 6 PM on all working days</li></ul>"
+      ]
+    ]
+  }
+]

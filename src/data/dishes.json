@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chicken Kabsa",
+    "type": "Balanced",
+    "desc": "Roast chicken on fragrant spiced rice, served with tomato and green chili sauces.",
+    "protein": 44,
+    "carbs": 62,
+    "fat": 20,
+    "kcal": 610,
+    "img": "/final/e392036a14da.jpg"
+  },
+  {
+    "name": "Mango Chicken Rice Bowl",
+    "type": "Balanced",
+    "desc": "Grilled chicken over spiced rice with sweet mango, peppers and crunchy cabbage.",
+    "protein": 48,
+    "carbs": 58,
+    "fat": 20,
+    "kcal": 590,
+    "img": "/final/646c89b5fe76.jpg"
+  },
+  {
+    "name": "Grilled Chicken Rice Bowl",
+    "type": "Balanced",
+    "desc": "Char-grilled chicken, seasoned rice, fresh vegetables and a cool herb dip.",
+    "protein": 50,
+    "carbs": 54,
+    "fat": 18,
+    "kcal": 570,
+    "img": "/final/8fd3a4f19fbc.jpg"
+  },
+  {
+    "name": "Herb Rice Chicken Bowl",
+    "type": "Light",
+    "desc": "Spiced chicken, herbed rice, chickpeas, cucumber and crisp lettuce.",
+    "protein": 40,
+    "carbs": 36,
+    "fat": 14,
+    "kcal": 420,
+    "img": "/final/a558b2a8c514.jpg"
+  },
+  {
+    "name": "Chicken Wrap & Chickpea Salad",
+    "type": "Light",
+    "desc": "A grilled chicken wrap with a fresh chickpea, tomato, cucumber and feta salad.",
+    "protein": 38,
+    "carbs": 40,
+    "fat": 16,
+    "kcal": 440,
+    "img": "/final/75ed22e3b8b8.jpg"
+  },
+  {
+    "name": "Chicken Wrap & Mango Salad",
+    "type": "Light",
+    "desc": "A grilled chicken wrap with a bright mango, pepper and cucumber salad.",
+    "protein": 36,
+    "carbs": 42,
+    "fat": 14,
+    "kcal": 420,
+    "img": "/final/e6e6609ffe58.jpg"
+  }
+]

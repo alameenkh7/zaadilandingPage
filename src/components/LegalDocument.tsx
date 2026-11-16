@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import '../legal-pages.css';
 
 export type LegalBlock =
   | { type: 'p'; text: string }
