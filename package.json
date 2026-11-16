@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "generate:legal": "python3 scripts/generate-static-legal-pages.py",
+    "generate:menus": "python3 scripts/generate-menu-pages.py",
     "generate:qr": "node scripts/generate-app-qr.mjs",
-    "build": "npm run generate:legal && tsc -b && vite build",
+    "build": "npm run generate:legal && npm run generate:menus && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
