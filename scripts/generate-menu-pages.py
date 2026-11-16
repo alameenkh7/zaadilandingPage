@@ -82,13 +82,8 @@ def shell(menu: dict) -> str:
         <h1>{menu['title']}</h1>
         <p class="menu-intro">{menu['subtitle']}</p>
         <div class="menu-actions">
-          <a href="{menu['pdf']}" class="legal-inline-link" target="_blank" rel="noopener">Open PDF</a>
-          <a href="{menu['pdf']}" class="legal-inline-link" download>Download PDF</a>
+          <a href="{menu['pdf']}" class="legal-inline-link" target="_blank" rel="noopener">Download PDF</a>
         </div>
-        <div class="menu-pdf-wrap">
-          <embed class="menu-pdf-embed" src="{menu['pdf']}#view=FitH" type="application/pdf" title="{menu['title']} PDF" />
-        </div>
-        <p class="menu-pages-label">Menu pages (images)</p>
         <div class="menu-pages" aria-label="{menu['title']} pages">
 {pages_html}
         </div>
